@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import Navbar from "./components/Navbar";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 // ✅ Lazy load all pages
 const Home = lazy(() => import("./pages/Home"));
@@ -48,6 +49,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <WhatsAppButton />
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/" element={<Home />} />
