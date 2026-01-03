@@ -15,11 +15,11 @@ function About() {
               About Deep Root
             </h1>
             <p className="mb-3 text-muted-foreground">
-              Code Root was founded with a simple mission: to bridge the gap
-              between aspiring IT professionals and their dream careers. We saw
-              a need for high-quality, practical, and affordable online
-              education that directly addresses the skills employers are looking
-              for.
+              Deep Rooted Software Training & Development Services was founded
+              with a simple mission: to bridge the gap between aspiring IT
+              professionals and their dream careers. We saw a need for
+              high-quality, practical, and affordable online education that
+              directly addresses the skills employers are looking for.
             </p>
             <p className="text-muted-foreground">
               Our team of industry experts and passionate educators is dedicated
