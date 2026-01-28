@@ -31,12 +31,12 @@ const CourseConfigData = [
     description:
       "Master the fundamentals of JavaScript, the language of the web.",
   },
-  {
-    image: react,
+   {
+    image: mern,
     tag: "Web Development",
-    title: "Advanced React & State Management",
+    title: "MERN Full Stack Development",
     description:
-      "Deep dive into React, hooks, context, and modern state management libraries.",
+      "Learn to build modern web apps with MongoDB, Express, React & Node.js.",
   },
   {
     image: python,
@@ -45,27 +45,28 @@ const CourseConfigData = [
     description:
       "Build robust and scalable web applications using Python with Django.",
   },
+   {
+    image: react,
+    tag: "IOT",
+    title: "Advanced IOT & Smart Systems",
+    description:
+      "Deep dive into connected devices, sensors, data, and intelligent automation systems.",
+  },
   {
     image: manual,
-    tag: "Manual Testing",
-    title: "QA Fundamentals & Theory",
+    tag: "Drone",
+    title: "Advanced Drone Technology",
     description:
-      "Learn the core principles of software quality assurance and testing.",
+      "Deep dive into drone systems, flight control, navigation, and industry usecases.",
   },
   {
     image: automation,
-    tag: "Automation Testing",
-    title: "Selenium WebDriver Mastery",
+    tag: "Career Development",
+    title: "Career Development",
     description:
-      "Automate web browser testing with the industry-standard Selenium.",
+      "Deep dive into skill building, career planning, growth strategies, and employability.",
   },
-  {
-    image: mern,
-    tag: "Web Development",
-    title: "MERN Full Stack Development",
-    description:
-      "Master the MERN stack (MongoDB, Express, React, Node.js) to build modern web applications.",
-  },
+ 
 ];
 
 const Courses = () => {

@@ -33,9 +33,9 @@ const coursesConfig = [
     path: "/course-3",
   },
   {
-    title: "QA Fundamentals & Testing",
+    title: "Drone Technology",
     description:
-      "Learn essential QA concepts and testing techniques to ensure high-quality software delivery.",
+      "Deep dive into drone systems, flight control, navigation, and industry usecases.",
     tagline: "Software Testing",
     bannerImage: testing,
     path: "/course-4",
