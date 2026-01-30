@@ -137,14 +137,14 @@ function Contact() {
                   <div>
                     <p class="font-semibold">Email</p>
                     <a
-                      href="mailto:hello@drcoding.com"
+                      href="mailto:supp_visistata@outlook.com"
                       className="text-muted-foreground"
                     >
-                      deeprootedlearnings@gmail.com
+                      supp_visistata@outlook.com
                     </a>
                   </div>
                 </div>
-                <div className="flex gap-3 mt-4 mb-4">
+                {/* <div className="flex gap-3 mt-4 mb-4">
                   <div className="contactIcon-background border-circle ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -169,9 +169,9 @@ function Contact() {
                     >
                       (+91) &nbsp; 9035920555
                     </a>
-                  </div>
-                </div>
-                <div className="flex gap-3">
+                  </div> */}
+                {/* </div> */}
+                <div className="flex gap-3 mt-4 mb-4">
                   <div className="contactIcon-background border-circle ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -189,13 +189,15 @@ function Contact() {
                       <circle cx="12" cy="10" r="3"></circle>
                     </svg>
                   </div>
+
                   <div>
                     <p class="font-semibold">Office Address</p>
                     <a
-                      href="mailto:hello@drcoding.com"
+                      href="mailto:supp_visistata@outlook.com"
                       className="text-muted-foreground"
                     >
-                      No.3152, 2nd Main, 9th Cross, GayathriNagar, Bangalore-21
+                       #63, Muddinapalya Main Road, Muneshwara Layout, 
+                          Gidadakonenahalli, Bengaluru, Karnataka 560091
                     </a>
                   </div>
                 </div>
@@ -222,7 +224,7 @@ function Contact() {
                     id="fullname"
                     name="fullname"
                     aria-describedby="fullname-help"
-                    placeholder="Rahul Kumar"
+                    placeholder="Shiva"
                     value={formData.fullname}
                     onChange={handleChange}
                   />
@@ -236,7 +238,7 @@ function Contact() {
                     id="email"
                     name="email"
                     aria-describedby="email-help"
-                    placeholder="rahul@gmail.com"
+                    placeholder="shiva@gmail.com"
                     value={formData.email}
                     onChange={handleChange}
                   />

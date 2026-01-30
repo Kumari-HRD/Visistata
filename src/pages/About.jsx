@@ -12,10 +12,10 @@ function About() {
           </section>
           <section className="col-12 md:col-6 pl-4">
             <h1 className="md:text-6xl text-4xl mb-3 space-grotesk">
-              About Deep Root
+              About Visistata
             </h1>
             <p className="mb-3 text-muted-foreground">
-              Deep Rooted Software Training & Development Services was founded
+              Visistata Software Training & Development Services was founded
               with a simple mission: to bridge the gap between aspiring IT
               professionals and their dream careers. We saw a need for
               high-quality, practical, and affordable online education that

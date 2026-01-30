@@ -19,25 +19,25 @@ const Footer = () => {
               navigate("/");
             }}
           >
-            Deep Root
+            Visistata
           </span>
           <p className="text-sm	mt-3  text-muted-foreground">
-            Code Root offers expert-led courses in software development and
+            Visistata offers expert-led courses in software development and
             testing to help you land your next role in tech.
           </p>
         </div>
         <div className="md:col-2 mx-auto sm:col-5 col-5">
           <h4 className="font-semibold	space-grotesk">Courses</h4>
           <p className="text-sm	my-1  text-muted-foreground">Web Development</p>
-          <p className="text-sm	my-1  text-muted-foreground">Manual Testing</p>
-          <p className="text-sm	my-1  text-muted-foreground">
-            Automation Testing
-          </p>
-          <p className="text-sm	my-1  text-muted-foreground">
-            Python Full Stack
-          </p>
           <p className="text-sm	my-1  text-muted-foreground">MERN Full Stack</p>
-          <p className="text-sm	my-1  text-muted-foreground">All Courses</p>
+          <p className="text-sm	my-1  text-muted-foreground">
+           Python Full Stack 
+          </p>
+          <p className="text-sm	my-1  text-muted-foreground">
+           IOT & Smart Systems 
+          </p>
+          <p className="text-sm	my-1  text-muted-foreground">Drone Techonolgy</p>
+          <p className="text-sm	my-1  text-muted-foreground">Career Development</p>
         </div>
         <div className="md:col-2 mx-auto sm:col-5 col-5">
           <h4 className="font-semibold	space-grotesk">Services</h4>

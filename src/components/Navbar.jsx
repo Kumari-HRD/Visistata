@@ -55,6 +55,22 @@ const Navbar = () => {
     {
       label: "Download Brochure",
       items: [
+         {
+          label: "MERN Full Stack",
+          command: () =>
+            downloadBrochure(
+              "/brochures/mern-full-stack.xlsx",
+              "MERN-Full-Stack-Brochure.xlsx",
+            ),
+        },
+         {
+          label: "Python Full Stack",
+          command: () =>
+            downloadBrochure(
+              "/brochures/python-full-stack.xlsx",
+              "Python-Full-Stack-Brochure.xlsx",
+            ),
+        },
         {
           label: "Data Analyst",
           command: () =>
@@ -71,38 +87,24 @@ const Navbar = () => {
               "Data-Science-Brochure.xlsx",
             ),
         },
-        {
-          label: "React JS",
-          command: () =>
-            downloadBrochure(
-              "/brochures/react-js.xlsx",
-              "React-JS-Brochure.xlsx",
-            ),
-        },
-        {
-          label: "MERN Full Stack",
-          command: () =>
-            downloadBrochure(
-              "/brochures/mern-full-stack.xlsx",
-              "MERN-Full-Stack-Brochure.xlsx",
-            ),
-        },
-        {
-          label: "Python Full Stack",
-          command: () =>
-            downloadBrochure(
-              "/brochures/python-full-stack.xlsx",
-              "Python-Full-Stack-Brochure.xlsx",
-            ),
-        },
-        {
-          label: "Automation Testing",
-          command: () =>
-            downloadBrochure(
-              "/brochures/automation-testing.xlsx",
-              "Automation-Testing-Brochure.xlsx",
-            ),
-        },
+        // {
+        //   label: "React JS",
+        //   command: () =>
+        //     downloadBrochure(
+        //       "/brochures/react-js.xlsx",
+        //       "React-JS-Brochure.xlsx",
+        //     ),
+        // },
+       
+       
+        // {
+        //   label: "Automation Testing",
+        //   command: () =>
+        //     downloadBrochure(
+        //       "/brochures/automation-testing.xlsx",
+        //       "Automation-Testing-Brochure.xlsx",
+        //     ),
+        // },
       ],
     },
   ];
